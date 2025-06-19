@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['CHAIR', 'LAPTOP', 'MONITOR', 'PERSON', 'TABLE', 'TELEVISION', 'hand', 'pen']
+
+roboflow:
+  workspace: quality-inspection-4fems
+  project: object-detection-tutorial-qff3q
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/quality-inspection-4fems/object-detection-tutorial-qff3q/dataset/1
